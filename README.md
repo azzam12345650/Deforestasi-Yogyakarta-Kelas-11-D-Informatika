@@ -15,4 +15,4 @@ Proyek Open Source analisis deforestasi di DIY Yogyakarta tahun 2021–2035.
 - Analisis per kabupaten
 - Responsif & Modern Design
 
-**🌐 Lihat Website:** [Buka Website](https://username.github.io/Deforestasi-Yogyakarta)
+**🌐 Lihat Website:** [Buka Website]( https://azzam12345650.github.io/Deforestasi-Yogyakarta-Kelas-11-D-Informatika/)
