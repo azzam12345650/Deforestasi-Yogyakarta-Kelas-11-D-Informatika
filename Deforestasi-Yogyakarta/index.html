@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deforestasi DIY Yogyakarta | Forest Watch</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- SPLASH SCREEN -->
+  <div id="splashScreen" class="splash">
+    <div class="splash-content">
+      <h1 class="splash-title">🌲 FOREST WATCH</h1>
+      <p class="splash-subtitle">Deforestasi Daerah Istimewa Yogyakarta<br>2021 — 2035</p>
+      
+      <div class="group-info">
+        <h3>Kelompok :</h3>
+        <p>1. Muhammad Fharel Kasturiarum <span>(Project Manager)</span></p>
+        <p>2. Alfaqiano Aswiro <span>(Analisis Data)</span></p>
+        <p>3. Gasqian Putra Bangsa <span>(Pencari Data)</span></p>
+        <p>4. Azzam Awalliban Jannati <span>(Perancang Visual)</span></p>
+      </div>
+
+      <button id="enterBtn" class="enter-button">MASUK KE DASHBOARD</button>
+      
+      <p class="splash-year">Proyek Open Source • Monitoring Hutan Yogyakarta</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="mainContent" class="hidden">
+    <header>
+      <div class="header-overlay">
+        <h1>🌲 Deforestasi Daerah Istimewa Yogyakarta</h1>
+        <p>Analisis & Visualisasi Spasial 2021–2035</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2 class="section-title">🗺️ Peta Deforestasi per Kabupaten</h2>
+      <div id="map" style="height: 480px; border-radius: 16px; margin-bottom: 40px;"></div>
+
+      <h2 class="section-title">📍 Analisis per Kabupaten (2026)</h2>
+      <div class="kabupaten-grid" id="kabupatenGrid"></div>
+
+      <h2 class="section-title">Tren Tutupan Hutan 2021 - 2035</h2>
+      <canvas id="mainChart" height="110"></canvas>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
